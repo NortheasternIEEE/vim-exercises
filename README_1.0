@@ -1,0 +1,112 @@
+Hello!
+
+I assume you have opened me in VIM. Cool! 
+
+Now hold on a sec, you cannot just start typing. Your in what is called command
+mode.
+
+Try moving your cursor here > <. While in command mode you can navigate with
+the arrows, or with the keys 'h'(left), 'j'(down), 'k'(up), and 'l'(right). This
+is so that a VIM user can always keep his fingers on the keyboard ready to type.
+
+Now that you've mastered that, try to complete th . You can type text by
+entering insert mode. That is done by pressing the 'i' key, makes sense. This
+allows you to insert text before your cursor location in command mode. To exit
+insert mode press 'Esc' or '^[' (meaning 'Ctrl-[').
+
+There are multiple ways to enter insert mode however. Try pressing key 'a' from
+command mode. Tell me why it's the 'a' key for 10.5 arbitrary awesome points.
+Now try 'A' and 'I'.
+
+Ok, now try '3dh', 'dd', and '5dd'. Opps, if you need some stuff back you can
+always use 'u'.
+
+Now try 'v', move your cursor a bit and then 'd'.
+
+I wonder what 's' does?
+
+What about 'V' and '^v'?
+
+'gg'? 'G'? '^'? (actually just the '^' key) '$'?
+
+Cool, so you can play with this all day when you get home. Lets try to come back
+together to go over some more basic navigation and file-system stuff.
+
+--------------------------------------------------------------------------------
+
+Ok so, I am going to give you some things to do. Open a new terminal so you can
+continue to read me.
+
+Move to my directory. Make a new directory workspace.
+
+Don't move. Make a new directory in workspace called work.
+
+Move to work. Make a new directory in my origional directory called playspace.
+
+Copy me to playspace.
+
+Rename me in playspace to nonsense.
+
+Delete this nonsense.
+
+Go into work. Make three files named whynot1 whynot2 and whynot3.
+
+Delete them all at once.
+
+Delete workspace and playspace.
+
+Ok, now get ready for some nifty utility commands.
+
+--------------------------------------------------------------------------------
+
+Ok sweet, you can grep like a boss now right? And by the way do you know why it
+is called grep? Ofcourse, I just told you. Well try that out will you? Search
+for all lines with Cool in them.
+
+Open a new terminal again so you can continue to read.
+
+How many times do I say I? Use grep from bash.
+
+How many times do I say not?
+
+How many times do I follow not with a single numerical digit?
+
+What does -r do?
+
+--color, thats cool.
+
+-n? Nifty.
+
+How many times do I follow not with any number of numerical digits? not344579.
+
+How many words are there in this file?
+
+How many lines are there in this file?
+
+Ok, so what does --help do?
+
+Oh now I've given it away. Everything is just going to be too easy now :(. Well,
+maybe not ...
+
+--------------------------------------------------------------------------------
+
+How many empty lines are there in this file?
+
+Think your too good for me now? How many times is grep mentioned in the grep man
+page? Not the number of lines ..., the number of instances printed.
+
+Read a man page with less.
+
+Print all the lines containing words with two consecutive 'o's in them to a new
+file.
+
+Figure out how ever you can how to print the percentage of the data in your
+documents directory modified this month.
+
+HAHAHAHAHAHAHAHAHAHA. Hint, if you want to look into this, look at du, awk, and
+date.
+
+Well I think we're done for now. Thanks. Please e-mail wilkening.mark@gmail.com
+with any feedback you may have about this session. The lecture style is a bit
+experimental and I would enjoy knowing what you thought of it. Even if it is as
+simple as a boooooooooooo or nice job, just shoot me a quick e-mail.
